@@ -1,6 +1,16 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
+body [xml|lang]{
+	font-style: italic;
+}
+
+blockquote p[xml|lang] + cite{
+	font-style: normal;
+}
+
+/* Begin verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -15,6 +25,7 @@
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+/* End verse */
 
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
