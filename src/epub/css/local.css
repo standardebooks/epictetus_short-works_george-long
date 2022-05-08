@@ -27,6 +27,11 @@ section[xml|lang] header [epub|type~="bridgehead"]{
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+p span.i8{
+	padding-left: 9em;
+	text-indent: -1em;
+}
 /* End verse */
 
 [epub|type~="bridgehead"]{
