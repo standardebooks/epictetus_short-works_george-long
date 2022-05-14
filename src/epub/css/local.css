@@ -8,7 +8,8 @@ body [xml|lang]{
 
 blockquote p[xml|lang] + cite,
 section[xml|lang] header,
-section[xml|lang] header [epub|type~="bridgehead"]{
+section[xml|lang] header [epub|type~="bridgehead"],
+body [xml|lang] i{
 	font-style: normal;
 }
 
