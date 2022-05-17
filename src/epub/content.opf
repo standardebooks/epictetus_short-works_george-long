@@ -28,50 +28,48 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Short Works</dc:title>
 		<meta property="file-as" refines="#title">Short Works</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Ethics, Ancient</dc:subject>
+		<dc:subject id="subject-2">Conduct of life--Early works to 1800</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85045098</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2002009926</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">A collection of Epictetus’s short works.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Born a slave and lamed by his master, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; studied Stoic philosophy while in captivity. Once freed, he survived Domitian’s banishment of all philosophers from Rome to settle in Greece, where he founded a school of philosophy. He quickly rose to prominence as a renowned Stoic scholar and teacher, and even though he was personally friendly with emperors, he kept a simple life.&lt;/p&gt;
+			&lt;p&gt;While most of Epictetus’s writings were compiled in the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/discourses/george-long"&gt;Discourses&lt;/a&gt;&lt;/i&gt; by his student Arrian of Nicomedia, his writings were also summarized in a short manual called the “Encheiridion.” A short handbook with practical suggestions on how to live a good and satisfying life, it remained popular for centuries with translations to different languages completed as early as 1493, and was even a common school text in Scotland during the 18&lt;sup&gt;th&lt;/sup&gt; century.&lt;/p&gt;
+			&lt;p&gt;This Standard Ebooks edition collects the “Encheiridion” together with Epictetus’s miscellaneous fragmentary teachings.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0236</dc:source>
+		<dc:source>https://archive.org/details/discoursesepicte00epiciala</dc:source>
+		<meta property="se:production-notes">Supersedes the previous standalone production of the Enchiridion translated by Elizabeth Carter.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Short_Works</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_short-works_george-long</meta>
 		<dc:creator id="author">Epictetus</dc:creator>
-		<meta property="file-as" refines="#author">CONTRIBUTOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Epictetus</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50082929</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">George Long</dc:contributor>
 		<meta property="file-as" refines="#translator">Long, George</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/George_Long</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/George_Long_(scholar)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82116302</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="se:role" refines="#translator" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Sir Lawrence Alma-Tadema</dc:contributor>
+		<meta property="file-as" refines="#artist">Alma-Tadema, Lawrence</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79060123</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber">Perseus Project, Tufts University</dc:contributor>
+		<meta property="file-as" refines="#transcriber">Perseus Project</meta>
+		<meta property="se:url.homepage" refines="#transcriber">http://www.perseus.tufts.edu/hopper/</meta>
+		<meta property="role" refines="#transcriber" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://weijiarhymeswith.asia</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
