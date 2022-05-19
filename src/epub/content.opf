@@ -44,7 +44,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0236</dc:source>
 		<dc:source>https://archive.org/details/discoursesepicte00epiciala</dc:source>
-		<meta property="se:production-notes">Supersedes the previous standalone production of the Enchiridion translated by Elizabeth Carter.</meta>
+		<meta property="se:production-notes">Supersedes the previous standalone production of the Enchiridion translated by Elizabeth Carter. Semanticate creates an unwanted change (“vi” is marked as Roman numerals in a Latin passage). ToC was modified manually.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/epictetus_short-works_george-long</meta>
