@@ -35,6 +35,8 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2002009926</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of Epictetus’s short works.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Born enslaved and lamed by his master, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; studied Stoic philosophy while in bondage. Once freed, he survived Domitian’s banishment of all philosophers from Rome to settle in Greece, where he founded a school of philosophy. He quickly rose to prominence as a renowned Stoic scholar and teacher, and even though he was personally favored by emperors, he kept a simple life.&lt;/p&gt;
