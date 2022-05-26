@@ -46,13 +46,3 @@ p span.i8{
 abbr[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
-
-#fragments-partially-assigned-to-epictetus::before,
-#fragments-partially-assigned-to-epictetus::after{
-	border-top: 1px solid;
-	border-width: thin;
-	content: "";
-	display: block;
-	margin: 1.5em auto 1.5em auto;
-	width: 25%;
-}
