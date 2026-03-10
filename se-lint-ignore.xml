@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="fragments.xhtml">
 		<ignore code="t-029">
+			<line>744</line>
 			<reason>This lint check is flagging lowercase Greek characters after a period. The transcription is accurate to the original printing.</reason>
 		</ignore>
 	</file>
