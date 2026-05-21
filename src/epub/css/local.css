@@ -8,7 +8,7 @@ body [xml|lang]{
 
 blockquote p[xml|lang] + cite,
 section[xml|lang] header,
-section[xml|lang] header [epub|type~="bridgehead"],
+section[xml|lang] header [epub|type~="se:bridgehead"],
 body [xml|lang] i{
 	font-style: normal;
 }
@@ -35,7 +35,7 @@ p span.i8{
 }
 /* End verse */
 
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
