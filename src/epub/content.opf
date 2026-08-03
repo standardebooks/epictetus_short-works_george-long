@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/epictetus/short-works/george-long</dc:identifier>
 		<dc:date>2022-05-26T16:26:51Z</dc:date>
@@ -43,12 +43,12 @@
 		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Enchiridion</meta>
-		<dc:description id="description">A collection of Epictetus’s short works.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of Epictetus’s short works.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Born enslaved and lamed by his master, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; studied Stoic philosophy while in bondage. Once freed, he survived Domitian’s banishment of all philosophers from Rome to settle in Greece, where he founded a school of philosophy. He quickly rose to prominence as a renowned Stoic scholar and teacher, and even though he was personally favored by emperors, he kept a simple life.&lt;/p&gt;
 			&lt;p&gt;While most of Epictetus’s writings were compiled in the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/discourses/george-long"&gt;Discourses&lt;/a&gt;&lt;/i&gt; by his student Arrian of Nicomedia, his writings were also summarized in a short manual called the “Enchiridion.” A short handbook with practical suggestions on how to live a good and satisfying life, it remained popular for centuries with translations to different languages completed as early as 1493, and was even a common school text in Scotland during the 18th century.&lt;/p&gt;
 			&lt;p&gt;This Standard Ebooks edition collects the “Enchiridion” together with Epictetus’s miscellaneous fragmentary teachings.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0236</dc:source>
 		<dc:source>https://archive.org/details/discoursesepicte00epiciala</dc:source>
