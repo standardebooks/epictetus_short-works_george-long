@@ -43,7 +43,7 @@
 		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Enchiridion</meta>
-		<dc:abstract>A collection of Epictetus’s short works.</dc:abstract>
+		<meta property="schema:abstract">A collection of Epictetus’s short works.</meta>
 		<dc:description>
 			&lt;p&gt;Born enslaved and lamed by his master, &lt;a href="https://standardebooks.org/ebooks/epictetus"&gt;Epictetus&lt;/a&gt; studied Stoic philosophy while in bondage. Once freed, he survived Domitian’s banishment of all philosophers from Rome to settle in Greece, where he founded a school of philosophy. He quickly rose to prominence as a renowned Stoic scholar and teacher, and even though he was personally favored by emperors, he kept a simple life.&lt;/p&gt;
 			&lt;p&gt;While most of Epictetus’s writings were compiled in the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/epictetus/discourses/george-long"&gt;Discourses&lt;/a&gt;&lt;/i&gt; by his student Arrian of Nicomedia, his writings were also summarized in a short manual called the “Enchiridion.” A short handbook with practical suggestions on how to live a good and satisfying life, it remained popular for centuries with translations to different languages completed as early as 1493, and was even a common school text in Scotland during the 18th century.&lt;/p&gt;
