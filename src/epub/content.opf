@@ -40,7 +40,7 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Enchiridion</meta>
 		<meta property="schema:abstract">A collection of Epictetus’s short works.</meta>
@@ -69,7 +69,7 @@
 		<link href="https://id.loc.gov/authorities/names/n82116302.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">Sir Lawrence Alma-Tadema</dc:contributor>
+		<dc:contributor id="artist">Lawrence Alma-Tadema</dc:contributor>
 		<meta property="file-as" refines="#artist">Alma-Tadema, Lawrence</meta>
 		<link href="https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79060123.html" refines="#artist" rel="schema:sameAs"/>
